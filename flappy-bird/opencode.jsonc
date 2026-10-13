@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agents": {
+    "code-reviewer": {
+      "model": "opencode/ling-3.0-flash-free"
+    },
+    "test-writer": {
+      "disabled": true
+    },
+    "docs-writer": {
+      "disabled": true
+    },
+    "explore": {
+      "model": "opencode/ling-3.0-flash-free"
+    }
+  }
+}
