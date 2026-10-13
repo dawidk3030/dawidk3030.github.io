@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Fruit Merge Game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>🍎 Fruit Merge Game 🍊</h1>
+            <div class="score-container">
+                <div class="score">Score: <span id="score">0</span></div>
+                <div class="next-fruit">Next 3: <span id="next-fruit">🍒 🍒 🍓</span></div>
+            </div>
+        </div>
+        
+        <div class="game-area">
+            <canvas id="gameCanvas" width="400" height="600"></canvas>
+            <div class="drop-line"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="dropBtn">Drop Fruit</button>
+            <button id="restartBtn">Restart Game</button>
+        </div>
+        
+        <div class="game-over" id="gameOver" style="display: none;">
+            <h2>Game Over!</h2>
+            <p>Final Score: <span id="finalScore">0</span></p>
+            <button onclick="restartGame()">Play Again</button>
+        </div>
+        
+        <div class="fruit-guide">
+            <h3>Fruit Evolution</h3>
+            <div class="fruit-chain">
+                <span>🍒</span> → <span>🍓</span> → <span>🫐</span> → <span>🍇</span> → <span>🥝</span> → <span>🍋</span> → <span>🍊</span> → <span>🍎</span> → <span>🍑</span> → <span>🥭</span> → <span>🍍</span> → <span>🥥</span>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
