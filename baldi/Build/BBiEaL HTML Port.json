@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Baldi's Basics Classic",
+"dataUrl": "BBiEaL HTML Port.data.unityweb",
+"wasmCodeUrl": "BBiEaL HTML Port.wasm.code.unityweb",
+"wasmFrameworkUrl": "BBiEaL HTML Port.wasm.framework.unityweb",
+"TOTAL_MEMORY": 33554432,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000",
+"cacheControl": {"default": "must-revalidate"}
+}
